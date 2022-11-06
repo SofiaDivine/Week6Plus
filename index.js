@@ -65,7 +65,7 @@ function showWeather(response) {
   air.innerHTML = response.data.weather[0].main;
   let humidityTears = document.querySelector("#tears");
   humidityTears.innerHTML =
-    "Dragon tears: " + response.data.main.humidity + "%";
+    "Mysterious humidity: " + response.data.main.humidity + "%";
   let wind = document.querySelector("#fairy");
   let showWind = Math.round(response.data.wind.speed);
   wind.innerHTML = "Fairy wind: " + showWind + "km/h";
