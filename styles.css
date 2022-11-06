@@ -159,3 +159,11 @@ input[type="text"]:focus {
   width: 100%;
   display: block;
 }
+.myLink {
+  color: rgba(206, 178, 126, 0.683);
+  display: block;
+  margin: 0 auto;
+}
+.linkName {
+  color: rgb(91, 43, 21);
+}
