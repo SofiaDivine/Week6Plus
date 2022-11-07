@@ -160,6 +160,8 @@ input[type="text"]:focus {
   display: block;
 }
 .myLink {
+  display: block;
+  margin: 0 auto;
   color: rgba(88, 73, 43, 0.683);
   cursor: pointer;
 }
@@ -167,9 +169,7 @@ input[type="text"]:focus {
   color: rgb(91, 43, 21);
 }
 .linkName {
-  color: rgb(91, 43, 21);
-}
-.linkSource {
   display: block;
   margin: 0 auto;
+  color: rgb(91, 43, 21);
 }
