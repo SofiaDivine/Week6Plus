@@ -160,7 +160,11 @@ input[type="text"]:focus {
   display: block;
 }
 .myLink {
-  color: rgba(136, 115, 76, 0.683);
+  color: rgba(88, 73, 43, 0.683);
+  cursor: pointer;
+}
+.mylink:hover {
+  color: rgb(91, 43, 21);
 }
 .linkName {
   color: rgb(91, 43, 21);
@@ -168,6 +172,4 @@ input[type="text"]:focus {
 .linkSource {
   display: block;
   margin: 0 auto;
-  position: relative;
-  margin-bottom: 1px;
 }
