@@ -70,7 +70,7 @@ input[type="text"]:focus {
 }
 .magicCity {
   border: 1px solid;
-  position: relative;
+  position: absolute;
   top: 10px;
   border-radius: 5px;
   cursor: pointer;
@@ -136,14 +136,14 @@ input[type="text"]:focus {
 }
 .precipitation {
   font-size: 18px;
-  position: absolute;
+  position: relative;
   text-align: right;
   left: 360px;
   top: 153px;
 }
 .wind {
   font-size: 18px;
-  position: absolute;
+  position: relative;
   text-align: right;
   left: 360px;
   top: 194px;
