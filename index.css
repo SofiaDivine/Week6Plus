@@ -136,17 +136,13 @@ input[type="text"]:focus {
 }
 .precipitation {
   font-size: 18px;
-  position: relative;
+  position: absolute;
   text-align: right;
-  left: 360px;
-  top: 153px;
 }
 .wind {
   font-size: 18px;
-  position: relative;
+  position: absolute;
   text-align: right;
-  left: 360px;
-  top: 194px;
 }
 .myLink {
   display: inline;
