@@ -15,8 +15,9 @@ let days = [
   "Friday",
   "Saturday",
 ];
+let day = days[date.getDate()];
 
-(nowTime.innerHTML = days), nowHour + ":" + nowMinutes;
+nowTime.innerHTML = day + nowHour + ":" + nowMinutes;
 
 function showTempWeather(response) {
   console.log(response.data);
