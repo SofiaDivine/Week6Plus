@@ -1,27 +1,24 @@
-function formatDate(timesTemp) {
-  let nowDate = new Date(timesTemp);
-  let nowHour = nowDate.getHours();
-  if (nowHour < 10) {
-    nowHour = `0&{nowHour}`;
-  }
-  let nowMinutes = nowDate.getMinutes();
-  if (nowMinutes < 10) {
-    nowMinutes = "0" + nowMinutes;
-  }
-  let days = [
-    "Sunday",
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-  ];
-  let day = days[date.getDate()];
-  return `&{day} &{nowHour}:&{nowMinutes1}`;
-}
+let nowDate = new Date();
 let nowTime = document.querySelector("#currentTime");
-nowTime.innerHTML = formatDate;
+let nowHour = nowDate.getHours();
+if (nowHour < 10) {
+  nowHour = `0&{nowHour}`;
+}
+let nowMinutes = nowDate.getMinutes();
+if (nowMinutes < 10) {
+  nowMinutes = "0" + nowMinutes;
+}
+let days = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
+let day = days[date.getDate()];
+nowTime.innerHTML = `&{day} &{nowHour}:&{nowMinutes1}`;
 
 function showTempWeather(response) {
   console.log(response.data);
