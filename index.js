@@ -6,8 +6,17 @@ let nowMinutes = nowDate.getMinutes();
 if (nowMinutes < 10) {
   nowMinutes = "0" + nowMinutes;
 }
+let days = [
+  "Sunday",
+  "Monday",
+  "Tuesday",
+  "Wednesday",
+  "Thursday",
+  "Friday",
+  "Saturday",
+];
 
-nowTime.innerHTML = nowHour + ":" + nowMinutes;
+(nowTime.innerHTML = days), nowHour + ":" + nowMinutes;
 
 function showTempWeather(response) {
   console.log(response.data);
