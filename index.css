@@ -135,9 +135,10 @@ input[type="text"]:focus {
   font-size: 26px;
 }
 .current-time {
-  font-size: 25px;
-  position: relative;
-  bottom: 45px;
+  position: absolute;
+  top: 200px;
+  left: 158px;
+  font-size: 26px;
 }
 .precipitation {
   font-size: 18px;

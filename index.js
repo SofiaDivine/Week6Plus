@@ -11,20 +11,6 @@ if (nowMinutes < 10) {
 
 nowTime.innerHTML = nowHour + ":" + nowMinutes;
 
-let weekDay = document.querySelector("cureenrDay");
-let days = [
-  "Sunday",
-  "Monday",
-  "Tuesday",
-  "Wednesday",
-  "Thursday",
-  "Friday",
-  "Saturday",
-];
-let day = days[date.getDate()];
-
-weekDay.innerHTML = day;
-
 function showTempWeather(response) {
   console.log(response.data);
   document.querySelector("#locationId").innerHTML = response.data.name;
