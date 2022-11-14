@@ -193,3 +193,15 @@ input[type="text"]:focus {
   font-size: 16px;
   line-height: 30px;
 }
+.link {
+  text-align: center;
+}
+.myLink {
+  color: rgb(206, 178, 126);
+}
+.myLink:hover {
+  color: rgb(63, 31, 18);
+}
+.myName {
+  color: rgb(63, 31, 18);
+}
